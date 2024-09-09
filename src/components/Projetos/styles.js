@@ -7,6 +7,7 @@ export const Container = styled.section`
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    font-family: "Montserrat", sans-serif;
 
     h1{
         text-align: center;
@@ -23,20 +24,44 @@ export const Section = styled.div`
 
   .card{
     width: 350px;
-    height: 290px;
+    height: 320px;
     background-color: #F9A602;
     border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
   }
 
   p{
     margin-top: 20px;
     text-align: center;
+    font-size: 22px;
+  }
+
+  span{
+    text-align: center;
+    font-size: 18px;
   }
 
   img{
     max-width: 310px;
     border-radius: 10px 10px 0 0;
     margin: 10px 20px;
-    cursor: pointer;
+  }
+
+  button{
+    padding: 5px;
+    width: 9rem;
+    height: 2rem;
+    margin: auto;
+    border-radius: 10px;
+    border: none;
+    background-color: #000;
+
+    a {
+      text-decoration: none;
+      font-weight: 700;
+      color: white;
+    }
   }
 `

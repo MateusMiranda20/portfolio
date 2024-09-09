@@ -26,10 +26,9 @@ function Projetos() {
 
           <Text>
             <div className="text">
-              <h3>Júndiai, Sp</h3>
-              <p>
-                Me chamo Bruno, nascido em 2005, sou um dedicado desenvolvedor front-end, formado pelo Vai na Web. Minha experiência abrange projetos em diversos setores, incluindo arquitetura, assessoria jurídica, saúde e prestação de serviços. Comprometido com a entrega de soluções visuais e funcionais, estou sempre em busca de aprimorar minhas habilidades para oferecer resultados excepcionais em cada projeto que abraço.
-              </p>
+                <p>
+                  Olá, sou Mateus Miranda, nascido em 2001, um desenvolvedor front-end  dedicado. Ao longo da minha jornada, trabalhei em projetos de diferentes setores, como arquitetura e prestação de serviços. Minha missão é criar interfaces visuais impactantes e funcionais, sempre com o compromisso de entregar soluções inovadoras. Estou constantemente buscando aprimorar minhas habilidades para garantir resultados excepcionais em cada projeto que participo.
+                </p>
               <span>
                 <a href="/src/docs/Desenvolvedor front-end Mateus.pdf" download>
                   <button className="download-button">Currículo</button>

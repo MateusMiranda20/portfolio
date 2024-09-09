@@ -7,6 +7,7 @@ export const Container = styled.section`
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    font-family: "Montserrat", sans-serif;
 
     h1{
         text-align: center;
@@ -22,7 +23,7 @@ export const Section = styled.div`
     border-radius: 10px;
     
     .icons{
-        font-size: 2.2rem;
+        font-size: 2rem;
         margin-top: 20px;
         display: flex;
         gap: 100px;
@@ -53,9 +54,9 @@ export const Text = styled.div`
     }
 
     p{
-            margin-top: 25px;
-            padding: 0 50px 10px 0;
-            font-size: 1.50rem;
+            
+            padding: 0 17px 0 0;
+            font-size: 1.20rem;
             line-height: 2.25rem;
     }
     

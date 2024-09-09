@@ -4,6 +4,7 @@ export const Hero = styled.section`
     padding: 80px 55px 0 10px;
     display: flex;
     justify-content: space-between;
+    font-family: "Montserrat", sans-serif;
     
     @media (max-width: 768px) {
         padding: 80px 55px 0 70px;
@@ -54,7 +55,7 @@ export const Hero = styled.section`
 
 export const LeftSection = styled.div`
   background-color: #F9A602;
-  width: 18%;
+  width: 20%;
   height: 100%;
   border-radius: 0 50px 50px 0;
   position: absolute;

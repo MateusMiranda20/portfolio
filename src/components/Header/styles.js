@@ -4,7 +4,7 @@ export const Container = styled.div`
     background: #fff;
     margin: 0 auto;
     max-width: 1200px;
-    font-family: var(--font-primary);
+    font-family: "Montserrat", sans-serif;
 
     @media (max-width: 768px) {
         display: flex;

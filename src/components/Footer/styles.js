@@ -7,6 +7,7 @@ export const Container = styled.section`
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    font-family: "Montserrat", sans-serif;
 `
 
 export const Section = styled.div`
@@ -15,7 +16,7 @@ export const Section = styled.div`
   flex-direction: row;
   background-color: #F9A602;
   width: 100%;
-  height: 110px;
+  height: 100px;
 
   .card{
     display: flex;
