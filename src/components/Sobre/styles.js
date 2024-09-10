@@ -30,6 +30,16 @@ export const Section = styled.div`
         justify-content: center;
         margin-left: 16rem;
         cursor: pointer;
+
+        @media (max-width:768px){
+            font-size: 1rem;
+            margin-top: 10px;
+            display: flex;
+            gap: 50px;
+            justify-content: center;
+            margin-left: 6rem;
+            cursor: pointer;
+        }
     }
 
     .main{
@@ -39,6 +49,15 @@ export const Section = styled.div`
         flex-direction: row;
         padding: 32px 20px 0 8px;
         margin: 0;
+
+        @media (max-width: 768px){
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: row;
+            padding: 18px 10px 0 0 ;
+            margin: 0;
+        }
     }
 
 `
@@ -47,17 +66,16 @@ export const Text = styled.div`
     width: 1000px;
 
     span{
-            font-size: 1.50rem;
-            font-weight: bolder;
-            font-family: 'Courier New', Courier, monospace;
-            letter-spacing: 2px;
+        font-size: 1.50rem;
+        font-weight: bolder;
+        font-family: 'Courier New', Courier, monospace;
+        letter-spacing: 2px;
     }
 
-    p{
-            
-            padding: 0 17px 0 0;
-            font-size: 1.20rem;
-            line-height: 2.25rem;
+    p{ 
+        padding: 0 17px 0 0;
+        font-size: 1.20rem;
+        line-height: 2.25rem;
     }
     
 
@@ -74,6 +92,14 @@ export const Text = styled.div`
         cursor: pointer;
         border-radius: 4px;
         font-weight: 700;
+    }
+
+    @media (max-width: 768px){
+        p{
+            padding: 0 17px 0 0;
+            font-size: 1rem;
+            line-height: 2rem;
+        }
     }
 `
 export const Img = styled.img`

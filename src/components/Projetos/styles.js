@@ -30,6 +30,12 @@ export const Section = styled.div`
     display: flex;
     flex-direction: column;
     gap: 8px;
+
+    @media (max-width:768px){
+      width: 11rem;
+      height: 14rem;
+      gap: 4px;
+    }
   }
 
   p{
@@ -44,7 +50,7 @@ export const Section = styled.div`
   }
 
   img{
-    max-width: 310px;
+    width: 90% ;
     border-radius: 10px 10px 0 0;
     margin: 10px 20px;
   }
@@ -63,5 +69,26 @@ export const Section = styled.div`
       font-weight: 700;
       color: white;
     }
+  }
+
+  @media (max-width:768px){
+    p{
+      margin-top: 10px;
+      text-align: center;
+      font-size: 14px;
+    }
+
+    span{
+      text-align: center;
+      font-size: 13px;
+      
+    }
+
+    img{
+      width: 140px;
+      border-radius: 10px 10px 0 0;
+      margin: 10px 20px;
+    }
+
   }
 `

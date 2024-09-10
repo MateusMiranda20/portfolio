@@ -27,7 +27,7 @@ function Projetos() {
           <Text>
             <div className="text">
                 <p>
-                  Olá, sou Mateus Miranda, nascido em 2001, um desenvolvedor front-end  dedicado. Ao longo da minha jornada, trabalhei em projetos de diferentes setores, como arquitetura e prestação de serviços. Minha missão é criar interfaces visuais impactantes e funcionais, sempre com o compromisso de entregar soluções inovadoras. Estou constantemente buscando aprimorar minhas habilidades para garantir resultados excepcionais em cada projeto que participo.
+                  Olá, sou Mateus Miranda, nascido em 2001, sou um desenvolvedor front-end  dedicado. Ao longo da minha jornada, trabalhei em projetos de diferentes setores, como alimentação e prestação de serviços. Minha missão é criar interfaces visuais impactantes e funcionais, sempre com o compromisso de entregar soluções inovadoras. Estou constantemente buscando aprimorar minhas habilidades para garantir resultados excepcionais em cada projeto que participo.
                 </p>
               <span>
                 <a href="/src/docs/Desenvolvedor front-end Mateus.pdf" download>

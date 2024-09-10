@@ -52,4 +52,30 @@ export const Section = styled.div`
     align-items: center;
     margin-left: 18rem;
   }
+
+  @media (max-width: 768px){
+    width: 100%;
+    height: 90px;
+
+    .footer_button{
+      text-decoration: none;
+      text-align: center;
+      font-size: 13px;
+      color: white;
+      display: flex;
+      background-color: black;
+      border-radius: 8px; 
+    }
+
+    p{
+      text-align: center;
+    }
+
+    span{
+      display: flex;
+      align-items: center;
+      margin-left: 8rem;
+    }
+  
+  }
 `

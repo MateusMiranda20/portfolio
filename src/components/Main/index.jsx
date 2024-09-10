@@ -11,7 +11,7 @@ function Main() {
                     <h2>Olá eu sou o <span>Mateus Miranda!</span></h2>
                     <h3>Desenvolvedor Front-End</h3>
                     <p>
-                        Sou especialista na construção de aplicativos web inovadores usando tecnologias como React e Next.js.
+                        Sou especialista na construção de aplicativos web inovadores usando tecnologias como React e node.js.
                     </p>
                     <span>
                         <a href="/src/docs/Desenvolvedor front-end Mateus.pdf" download>

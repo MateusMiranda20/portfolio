@@ -157,6 +157,11 @@ export const Text = styled.div`
             cursor: pointer;
             border-radius: 4px;
             font-weight: 700;
+
+            @media ( max-width: 768px){
+                background-color: #0000FF;
+                color: white;
+            }
         }
 
     

@@ -62,23 +62,6 @@ export const Headerr = styled.header`
         top: 0;
     }
 
-    @media (max-width: 768px) {
-        display: flex;
-        justify-content: space-around;
-        flex-direction: row;
-        gap: 130px;
-        margin-right: -75px;
-        top: 0;
-    }
-
-    @media (min-width: 540px) {
-        display: flex;
-        justify-content: space-around;
-        align-items: center;
-        gap: 52px;
-        top: 0;
-    }
-
     @media (max-width: 425px) {
         gap: 80px;
         display: flex;
@@ -116,6 +99,7 @@ export const H1 = styled.h1`
     span {
         color: #F9A602;
     }
+
 
     @media (max-width: 320px) {
         font-size: 25px;
