@@ -31,6 +31,16 @@ export const Section = styled.div`
         margin-left: 16rem;
         cursor: pointer;
 
+        @media (max-width: 1024px){
+            font-size: 1.5rem;
+            margin-top: 10px;
+            display: flex;
+            gap: 50px;
+            justify-content: center;
+            margin-left: 6rem;
+            cursor: pointer;
+        }
+
         @media (max-width:768px){
             font-size: 1rem;
             margin-top: 10px;
@@ -49,6 +59,15 @@ export const Section = styled.div`
         flex-direction: row;
         padding: 32px 20px 0 8px;
         margin: 0;
+
+        @media (max-width: 1024px){
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: row;
+            padding: 8px 10px 0 0 ;
+            margin: 0;
+        }
 
         @media (max-width: 768px){
             display: flex;
@@ -92,6 +111,16 @@ export const Text = styled.div`
         cursor: pointer;
         border-radius: 4px;
         font-weight: 700;
+
+        @media (max-width: 1024px){
+           padding : 10px 25px ;
+           font-size:14px ;
+        }
+
+        @media (max-width: 768px){
+            padding: 10px 20px ;
+           font-size: 14px ;
+        }
     }
 
     @media (max-width: 768px){

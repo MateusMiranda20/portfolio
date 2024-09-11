@@ -6,7 +6,7 @@ import fazeres from "../../assets/fazeres.png"
 function Projetos() {
 
   return (
-    <Container id='projetos'>
+    <Container id='projetos' data-aos="fade-up">
       <h1>Projetos</h1>
       <Section>
         <div className="card">

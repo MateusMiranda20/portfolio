@@ -31,6 +31,12 @@ export const Section = styled.div`
     flex-direction: column;
     gap: 8px;
 
+    @media (max-width:1024px){
+      width: 16rem;
+      height: 20rem;
+      gap: 4px;
+    }
+
     @media (max-width:768px){
       width: 11rem;
       height: 14rem;
@@ -42,6 +48,7 @@ export const Section = styled.div`
     margin-top: 20px;
     text-align: center;
     font-size: 22px;
+    font-weight: 600;
   }
 
   span{
@@ -68,6 +75,21 @@ export const Section = styled.div`
       text-decoration: none;
       font-weight: 700;
       color: white;
+    }
+  }
+
+  @media (max-width:1024px){
+    img{
+      width: 220px;
+      border-radius: 10px 10px 0 0;
+      margin: 10px 20px;
+    }
+
+    button{
+      padding: 5px;
+      width: 10rem;
+      height: 2.5rem;
+      margin: auto;
     }
   }
 

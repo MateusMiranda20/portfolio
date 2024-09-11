@@ -9,7 +9,7 @@ import { SiStyledcomponents } from "react-icons/si";
 function Projetos() {
 
   return (
-    <Container id="sobre">
+    <Container id="sobre" data-aos="fade-up">
       <h1>Sobre</h1>
       <Section>
               <div className="icons">

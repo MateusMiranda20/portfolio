@@ -48,7 +48,7 @@ export const Headerr = styled.header`
     box-shadow: 0px 2px 20px rgb(72 86 100 / 20%);
 
 
-    @media (max-width: 999px) {
+    @media (max-width: 1024px) {
         display: flex;
         justify-content: space-around;
         align-items: center;
