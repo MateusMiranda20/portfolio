@@ -8,4 +8,17 @@ export const GlobalStyles = createGlobalStyle`
     font-family: "Montserrat", sans-serif;
   }
 
+  body::-webkit-scrollbar{
+    width: 6px;
+  }
+
+  body::-webkit-scrollbar-track{
+    background-color:  #F9A602 ;
+
+  }
+
+  body::-webkit-scrollbar-thumb{
+    background-color:  #000 ;
+  }
+
 `

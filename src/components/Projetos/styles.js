@@ -70,6 +70,7 @@ export const Section = styled.div`
     border-radius: 10px;
     border: none;
     background-color: #000;
+    cursor: pointer;
 
     a {
       text-decoration: none;
@@ -103,7 +104,7 @@ export const Section = styled.div`
     span{
       text-align: center;
       font-size: 13px;
-      
+      cursor: pointer;
     }
 
     img{

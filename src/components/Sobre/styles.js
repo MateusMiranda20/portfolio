@@ -41,6 +41,7 @@ export const Section = styled.div`
             cursor: pointer;
         }
 
+
         @media (max-width:768px){
             font-size: 1rem;
             margin-top: 10px;
@@ -114,12 +115,20 @@ export const Text = styled.div`
 
         @media (max-width: 1024px){
            padding : 10px 25px ;
-           font-size:14px ;
+           font-size: 14px ;
         }
 
         @media (max-width: 768px){
             padding: 10px 20px ;
-           font-size: 14px ;
+            font-size: 14px ;
+        }
+    }
+
+    @media (max-width: 930px){
+        p{
+            padding: 0 17px 0 0;
+            font-size: 1.1rem;
+            line-height: 2rem;
         }
     }
 

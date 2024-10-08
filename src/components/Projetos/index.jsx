@@ -7,7 +7,7 @@ function Projetos() {
 
   return (
     <Container id='projetos' data-aos="fade-up">
-      <h1>Projetos</h1>
+      <h1>Últimos projetos</h1>
       <Section>
         <div className="card">
           <img src={fazeres} alt="To-do-list" />

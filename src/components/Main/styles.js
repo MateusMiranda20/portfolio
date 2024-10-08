@@ -29,9 +29,6 @@ export const Hero = styled.section`
     }
   }
 
-    @media (max-width: 425px) {
-        padding: 30px 15px 0 10px;
-    }
 
     @media (max-width: 375px) {
         padding: 100px 0 20px 0;
@@ -77,6 +74,7 @@ export const LeftSection = styled.div`
 export const Img = styled.img`
     width: 80vh;
     height: auto;
+    margin-bottom: 140px;
     border-radius: 20px;
     object-fit: contain;
     flex-shrink: 0; /* Impede que a imagem diminua quando a tela encolher */
@@ -104,7 +102,8 @@ export const Text = styled.div`
     width: 100%;
     align-items: left;
     color: #000;
-    padding: 0 0 130px 10px; 
+    padding: 0 0 130px 10px;
+    margin-right: 50px;
 
     h2 {
         font-size: 3rem;
