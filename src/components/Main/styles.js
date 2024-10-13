@@ -5,38 +5,109 @@ export const Hero = styled.section`
     display: flex;
     flex-wrap: wrap;
     font-family: "Montserrat", sans-serif;
-    
 
     .container {
-        height: 100vh;
-        width: 100%;
+        min-height: 100vh;
         display: flex;
         justify-content: center;
         align-items: center;
         gap: 80px;
+    }
 
-        @media (max-width: 768px) {
-            display: flex;
-            flex-direction: row;
-        }
-
+    @media (max-width: 999px) {
+        padding: 20px;
+        justify-content: space-around;
+        align-items: center;
     }
 
     @media (max-width: 877px) {
-    padding: 50px 25px 0 10px;
-    .container {
-      gap: 30px;
+        padding: 20px 35px 0 10px;
+        h2 {
+            font-size: 25px;
+            font-weight: 300;
+            margin: 10px 0;
+            color: #000 ;
+        }
+        
+        h3 {
+            font-size: 30px;
+            font-weight: 300;
+            margin: 10px 0;
+            color: #000 ;
+        }
+        
+        p {
+            font-size: 15px;
+            font-weight: 500;
+            line-height: 1.6;
+            margin: 12px 0;
+            width: 85%;
+        }
+        
+        button, a{
+           max-width: 50%;
+        }
     }
-  }
 
+    @media (max-width: 768px) {
+        .container {
+            flex-direction: column;
+            gap: 40px;
+        }
+    }
+
+    @media (max-width: 425px) {
+        .container {
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+            padding: 80px 0;
+            margin-left: 32%;
+
+            h2{
+                font-size: 30px;
+                font-weight: 300;
+                margin: 10px 0;
+                color: #000 ;
+            }
+
+            h3 {
+            font-size: 30px;
+            font-weight: 300;
+            margin: 10px 0;
+            color: #000 ;
+            }
+        
+            p {
+                font-size: 18px;
+                font-weight: 500;
+                line-height: 1.6;
+                margin: auto;
+                }
+
+                button, a{
+                font-size: 20px;
+                 max-width: 50%;
+                 position: relative;
+                 left: 13px;
+                }
+            }
+    }
 
     @media (max-width: 375px) {
-        padding: 100px 0 20px 0;
+        .container {
+            margin-top: 0;
+            padding: 20px;
+            width: 100%;
+        }
     }
 
     @media (max-width: 320px) {
-        padding: 80px 0 10px 0;
-        gap: 25px;
+        gap: 20px;
+        .container {
+            padding: 10px;
+            gap: 15px;
+        }
     }
 `;
 
@@ -49,13 +120,6 @@ export const LeftSection = styled.div`
         left: 0;
         top: 0;
         bottom: 10px;
-   
-  
-        @media (max-width: 1024px) {
-            width: 18%;
-            height: 100%;
-            position: absolute;
-        }
 
         @media (max-width: 877px) {
             width: 19%;
@@ -63,10 +127,13 @@ export const LeftSection = styled.div`
         }
 
         @media (max-width: 768px) {
-            width: 22%;
+            width: 23%;
+            
         }
 
-
+        @media (max-width: 425px), (max-width: 375px), (max-width: 320px) {
+        display: none;
+    }
 `;
 
 
@@ -81,6 +148,7 @@ export const Img = styled.img`
 
     @media (max-width: 1024px) {
         margin: 0 0 9rem 0;
+        width: 60vh;
     }
 
     @media (max-width: 877px) {
@@ -88,8 +156,13 @@ export const Img = styled.img`
     }
 
     @media (max-width: 768px){
-        width: 70vh;
+        width: 45vh;
         border-radius: 10px;
+    }
+
+    @media ( max-width: 425px){
+      position: relative;
+      bottom: 60px;
     }
 
 `;
@@ -99,8 +172,6 @@ export const Text = styled.div`
     flex-direction: column;
     align-items: flex-start;
     max-width: 600px;
-    width: 100%;
-    align-items: left;
     color: #000;
     padding: 0 0 130px 10px;
     margin-right: 50px;
@@ -125,114 +196,43 @@ export const Text = styled.div`
         width: 100%;
     }
 
-    .download-button{
-            background-color: #000;
-            border: none;
-            color: white;
-            padding: 8px 10px;
-            text-align: center;
-            text-decoration: none;
-            display: inline-block;
-            font-size: 16px;
-            margin: 15px 2px;
-            cursor: pointer;
-            border-radius: 4px;
-            font-weight: 700;
+    .download-button {
+                background-color: #000;
+                border: none;
+                color: white;
+                padding: 8px 10px;
+                text-align: center;
+                text-decoration: none;
+                display: inline-block;
+                font-size: 16px;
+                margin: 15px 2px;
+                cursor: pointer;
+                border-radius: 4px;
+                font-weight: 700;
 
-            @media ( max-width: 768px){
-                font-size: 13px;
-            }
-        }
+                @media ( max-width: 768px){
+                    font-size: 13px;
+                }
+    }
 
     .linkedin {
-        background-color: #0000FF;
-        border: none;
-        color: #fff;
-        padding: 8px 10px;
-        text-align: center;
-        text-decoration: none;
-        display: inline-block;
-        font-size: 16px;
-        margin: 15px 2px;
-        cursor: pointer;
-        border-radius: 4px;
-        font-weight: 700;
+                background-color: #0000FF;
+                border: none;
+                color: #fff;
+                padding: 8px 10px;
+                text-align: center;
+                text-decoration: none;
+                display: inline-block;
+                font-size: 16px;
+                margin: 15px 2px;
+                cursor: pointer;
+                border-radius: 4px;
+                font-weight: 700;
 
-        @media ( max-width: 768px){
-           font-size: 13px;
-        }
+                @media ( max-width: 768px){
+                font-size: 13px;
+                }
 
-    }   
-        @media (max-width: 877px) {
-
-            h2 {
-                font-size: 25px;
-                font-weight: 300;
-                margin: 10px 0;
-                color: #000 ;
-            }
-            
-            h3 {
-                font-size: 30px;
-                font-weight: 300;
-                margin: 10px 0;
-                color: #000 ;
-            }
-            
-            p {
-                font-size: 15px;
-                font-weight: 500;
-                line-height: 1.6;
-                margin: 12px 0;
-                width: 85%;
-            } 
-            
-            button, a{
-               max-width: 50%;
-            }
-        }
-
-        @media (max-width:768px){        
-            
-            h2 {
-                font-size: 25px;
-                font-weight: 300;
-                margin: 10px 0;
-                color: #000 ;
-            }
-            
-            h3 {
-                font-size: 30px;
-                font-weight: 300;
-                margin: 10px 0;
-                color: #000 ;
-            }
-            
-            p {
-                font-size: 18px;
-                font-weight: 500;
-                line-height: 1.6;
-                margin: 12px 0;
-                width: 85%;
-            } 
-            
-            button, a{
-               max-width: 50%;
-            }
-        }
-
-
-        @media (max-width: 468px) {
-            width: 100%;
-            max-width: 100%; /* Remove a limitação da largura em telas menores */
-
-            h2{
-                font-size: 2rem;
-            }
-
-            p{
-                font-size: 15px;
-            } 
-    } 
-    
+    }
+       
 `;

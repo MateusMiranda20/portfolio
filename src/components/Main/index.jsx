@@ -16,12 +16,12 @@ function Main() {
     }, []);
 
     return (
-        <Hero id="#" 
+        <Hero id="#"
             data-aos={isAnimated ? "fade-down" : ""}
         >
             <LeftSection />
             <div className="container" data-aos="fade-up">
-                <Text className='main-text'>
+                <Text>
                     <h2>Olá eu sou o <span>Mateus Miranda!</span></h2>
                     <h3>Desenvolvedor Front-End</h3>
                     <p>
@@ -35,7 +35,6 @@ function Main() {
                             <button className="linkedin">Linkedin</button>
                         </a>
                     </span>
-
                 </Text>
 
                 <div className='img-logo'>
