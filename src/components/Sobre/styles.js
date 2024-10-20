@@ -16,7 +16,7 @@ export const Container = styled.section`
     }
 
     @media (max-width: 425px){
-        margin-left: 5rem;
+        margin-left: 11rem;
     }
 `
 

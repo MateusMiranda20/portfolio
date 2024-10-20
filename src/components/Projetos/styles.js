@@ -18,8 +18,8 @@ export const Container = styled.section`
     @media (max-width: 425px){
       h1{
         text-align: center;
-        margin-left: 12rem ;
-        
+        margin-left: 22rem ;
+        margin-top: 12rem;
       }
     }
 
@@ -34,7 +34,7 @@ export const Section = styled.div`
   @media (max-width: 425px){
     display: flex;
     flex-direction: column;
-    margin-left: 10rem;
+    margin-left: 23rem;
   }
 
   .card{

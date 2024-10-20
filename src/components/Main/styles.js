@@ -62,36 +62,36 @@ export const Hero = styled.section`
             align-items: center;
             text-align: center;
             padding: 80px 0;
-            margin-left: 32%;
+            margin-left: 14rem;
 
-            h2{
+                h2{
+                    font-size: 30px;
+                    font-weight: 300;
+                    margin: 10px 0;
+                    color: #000 ;
+                }
+
+                h3 {
                 font-size: 30px;
                 font-weight: 300;
                 margin: 10px 0;
                 color: #000 ;
-            }
-
-            h3 {
-            font-size: 30px;
-            font-weight: 300;
-            margin: 10px 0;
-            color: #000 ;
-            }
-        
-            p {
-                font-size: 18px;
-                font-weight: 500;
-                line-height: 1.6;
-                margin: auto;
+                }
+            
+                p {
+                    font-size: 18px;
+                    font-weight: 500;
+                    line-height: 1.6;
+                    margin: auto;
                 }
 
                 button, a{
-                font-size: 20px;
-                 max-width: 50%;
-                 position: relative;
-                 left: 13px;
+                    font-size: 20px;
+                    max-width: 50%;
+                    position: relative;
+                    left: 13px;
                 }
-            }
+        }
     }
 
     @media (max-width: 375px) {
@@ -162,8 +162,9 @@ export const Img = styled.img`
 
     @media ( max-width: 425px){
       position: relative;
-      bottom: 0;
+      bottom: 15px;
       margin: 0;
+      right: 20px;
     }
 
 `;

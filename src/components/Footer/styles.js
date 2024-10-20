@@ -22,6 +22,7 @@ export const Section = styled.div`
   width: 100%;
   height: 100px;
 
+
   .card{
     display: flex;
     flex-direction: row;
@@ -58,7 +59,7 @@ export const Section = styled.div`
   }
 
   @media (max-width: 768px){
-    width: 100%;
+
     height: 90px;
 
     .footer_button{
@@ -84,14 +85,19 @@ export const Section = styled.div`
   }
 
   @media (max-width: 425px) {
-    .card{
-      gap: 10px;
-      margin-left: 5px;
+      gap: 40px;
+      margin-left: 14rem;
+      width: 58rem;
+
+      span{
+        margin-left: 20px;
+        font-size: 22px;
+      }
+
+      .footer_button{
+        font-size: 18px;
+      }
     }
 
-    span{
-      margin-left: 40px;
-    }
-  }
 
 `

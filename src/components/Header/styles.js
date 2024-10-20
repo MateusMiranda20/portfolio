@@ -18,6 +18,7 @@ export const Container = styled.div`
         justify-content: center;
         flex-direction: column;
         align-items: center;
+        
     }
 
     &.fixed-header { 
@@ -67,7 +68,7 @@ export const Headerr = styled.header`
         display: flex;
         /* justify-content: center; */
         /* align-items: center; */
-        margin-right: 11rem;
+        margin-right: 1rem;
         top: 0;
     }
     
@@ -100,6 +101,11 @@ export const H1 = styled.h1`
         color: #F9A602;
     }
 
+
+    @media (max-width: 425px) {
+        font-size: 35px;
+        margin-right: 100px;
+    }
 
     @media (max-width: 320px) {
         font-size: 25px;
