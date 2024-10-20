@@ -14,6 +14,10 @@ export const Container = styled.section`
         margin: auto;
         padding: 0 0 40px 0 ;
     }
+
+    @media (max-width: 425px){
+        margin-left: 5rem;
+    }
 `
 
 export const Section = styled.div`
@@ -21,6 +25,11 @@ export const Section = styled.div`
     width: 95%;
     height: 26rem;
     border-radius: 10px;
+
+    @media (max-width: 425px){
+        width: 100% ;
+        height: 40rem;
+    }
     
     .icons{
         font-size: 2rem;
@@ -51,6 +60,12 @@ export const Section = styled.div`
             margin-left: 6rem;
             cursor: pointer;
         }
+
+        @media (max-width: 425px){
+            margin: auto;
+            padding: 10px;
+            font-size: 17px ;
+        }
     }
 
     .main{
@@ -77,6 +92,11 @@ export const Section = styled.div`
             flex-direction: row;
             padding: 18px 10px 0 0 ;
             margin: 0;
+        }
+
+        @media (max-width: 425px){
+            display: flex;
+            flex-direction: column;
         }
     }
 
@@ -122,6 +142,13 @@ export const Text = styled.div`
             padding: 10px 20px ;
             font-size: 14px ;
         }
+
+        @media (max-width: 425px){
+            margin: auto;
+            padding: 10px;
+            font-size: 17px ;
+            margin-left: 28rem;
+        }
     }
 
     @media (max-width: 930px){
@@ -139,6 +166,15 @@ export const Text = styled.div`
             line-height: 2rem;
         }
     }
+
+    @media (max-width: 425px){
+        p{
+            padding: 10px 20rem;
+            font-size: 1rem;
+            line-height: 2rem;
+            text-align: center;
+        }
+    }
 `
 export const Img = styled.img`
    width: 90%;
@@ -147,4 +183,9 @@ export const Img = styled.img`
         margin: 0;
         padding: 0;
    }
+
+    @media (max-width: 425px){
+        max-width: 55%;
+        margin-left: 7rem;
+    }
 `

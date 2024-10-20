@@ -51,7 +51,7 @@ export const Hero = styled.section`
 
     @media (max-width: 768px) {
         .container {
-            flex-direction: column;
+            flex-direction: row;
             gap: 40px;
         }
     }
@@ -162,7 +162,8 @@ export const Img = styled.img`
 
     @media ( max-width: 425px){
       position: relative;
-      bottom: 60px;
+      bottom: 0;
+      margin: 0;
     }
 
 `;
@@ -197,22 +198,21 @@ export const Text = styled.div`
     }
 
     .download-button {
-                background-color: #000;
-                border: none;
-                color: white;
-                padding: 8px 10px;
-                text-align: center;
-                text-decoration: none;
-                display: inline-block;
-                font-size: 16px;
-                margin: 15px 2px;
-                cursor: pointer;
-                border-radius: 4px;
-                font-weight: 700;
-
-                @media ( max-width: 768px){
-                    font-size: 13px;
-                }
+        background-color: #000;
+        border: none;
+        color: white;
+        padding: 8px 10px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 15px 2px;
+        cursor: pointer;
+        border-radius: 4px;
+        font-weight: 70;
+        @media ( max-width: 768px){
+            font-size: 13px;
+        }
     }
 
     .linkedin {

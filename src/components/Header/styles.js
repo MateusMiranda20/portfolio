@@ -67,7 +67,7 @@ export const Headerr = styled.header`
         display: flex;
         /* justify-content: center; */
         /* align-items: center; */
-        margin-right: 0px;
+        margin-right: 11rem;
         top: 0;
     }
     

@@ -14,6 +14,15 @@ export const Container = styled.section`
         margin: auto;
         padding: 0 0 40px 0 ;
     }
+
+    @media (max-width: 425px){
+      h1{
+        text-align: center;
+        margin-left: 12rem ;
+        
+      }
+    }
+
 `
 
 export const Section = styled.div`
@@ -21,6 +30,12 @@ export const Section = styled.div`
   gap: 100px;
   align-items: center;
   flex-direction: row;
+
+  @media (max-width: 425px){
+    display: flex;
+    flex-direction: column;
+    margin-left: 10rem;
+  }
 
   .card{
     width: 350px;
@@ -41,6 +56,10 @@ export const Section = styled.div`
       width: 11rem;
       height: 14rem;
       gap: 4px;
+    }
+
+    @media (max-width: 425px){
+      width: 25rem;
     }
   }
 

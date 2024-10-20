@@ -8,6 +8,10 @@ export const Container = styled.section`
     justify-content: center;
     flex-direction: column;
     font-family: "Montserrat", sans-serif;
+
+    @media (max-width: 425px) {
+      width: 38rem;
+    }
 `
 
 export const Section = styled.div`
@@ -78,4 +82,16 @@ export const Section = styled.div`
     }
   
   }
+
+  @media (max-width: 425px) {
+    .card{
+      gap: 10px;
+      margin-left: 5px;
+    }
+
+    span{
+      margin-left: 40px;
+    }
+  }
+
 `
