@@ -16,7 +16,8 @@ export const Container = styled.section`
     }
 
     @media (max-width: 425px){
-        margin-left: 11rem;
+        margin-left: 8rem;
+        width: 38rem;
     }
 `
 
@@ -28,7 +29,7 @@ export const Section = styled.div`
 
     @media (max-width: 425px){
         width: 100% ;
-        height: 40rem;
+        height: 62rem;
     }
     
     .icons{
@@ -64,7 +65,7 @@ export const Section = styled.div`
         @media (max-width: 425px){
             margin: auto;
             padding: 10px;
-            font-size: 17px ;
+            font-size: 35px ;
         }
     }
 
@@ -145,9 +146,10 @@ export const Text = styled.div`
 
         @media (max-width: 425px){
             margin: auto;
-            padding: 10px;
-            font-size: 17px ;
-            margin-left: 28rem;
+            padding: 15px;
+            font-size: 27px;
+            margin-left: 27rem;
+            margin-top: 20px;
         }
     }
 
@@ -169,9 +171,9 @@ export const Text = styled.div`
 
     @media (max-width: 425px){
         p{
-            padding: 10px 20rem;
-            font-size: 1rem;
-            line-height: 2rem;
+            padding: 1px 16rem;
+            font-size: 1.9rem;
+            line-height: 2.2rem;
             text-align: center;
         }
     }
@@ -185,7 +187,7 @@ export const Img = styled.img`
    }
 
     @media (max-width: 425px){
-        max-width: 55%;
-        margin-left: 7rem;
+        max-width: 52%;
+        margin-left: 10rem;
     }
 `

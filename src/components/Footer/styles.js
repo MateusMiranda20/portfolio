@@ -89,13 +89,18 @@ export const Section = styled.div`
       margin-left: 14rem;
       width: 58rem;
 
+      p{
+        font-size: 25px;
+      }
+
       span{
         margin-left: 20px;
-        font-size: 22px;
+        font-size: 25px;
       }
 
       .footer_button{
-        font-size: 18px;
+        font-size: 0px;
+        
       }
     }
 

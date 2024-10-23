@@ -61,35 +61,37 @@ export const Hero = styled.section`
             flex-direction: column;
             align-items: center;
             text-align: center;
-            padding: 80px 0;
-            margin-left: 14rem;
+            padding: 90px 0;
+            margin-left: 11rem;
 
                 h2{
-                    font-size: 30px;
-                    font-weight: 300;
+                    font-size: 39px;
+                    font-weight: 500;
                     margin: 10px 0;
                     color: #000 ;
                 }
 
                 h3 {
-                font-size: 30px;
-                font-weight: 300;
-                margin: 10px 0;
-                color: #000 ;
+                    font-size: 39px;
+                    font-weight: 500;
+                    margin: 10px 0;
+                    color: #000 ;
                 }
             
                 p {
-                    font-size: 18px;
+                    font-size: 25px;
                     font-weight: 500;
                     line-height: 1.6;
                     margin: auto;
                 }
 
                 button, a{
-                    font-size: 20px;
-                    max-width: 50%;
+                    font-size: 29px;
+                    max-width: 57%;
                     position: relative;
-                    left: 13px;
+                    left: 12px;
+                    top: 10px;
+                    padding: 15px;
                 }
         }
     }
@@ -164,7 +166,8 @@ export const Img = styled.img`
       position: relative;
       bottom: 15px;
       margin: 0;
-      right: 20px;
+      right: 10px;
+      width: 65vh;
     }
 
 `;
@@ -210,7 +213,7 @@ export const Text = styled.div`
         margin: 15px 2px;
         cursor: pointer;
         border-radius: 4px;
-        font-weight: 70;
+        font-weight: 700;
         @media ( max-width: 768px){
             font-size: 13px;
         }

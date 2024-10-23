@@ -63,14 +63,7 @@ export const Headerr = styled.header`
         top: 0;
     }
 
-    @media (max-width: 425px) {
-        gap: 80px;
-        display: flex;
-        /* justify-content: center; */
-        /* align-items: center; */
-        margin-right: 1rem;
-        top: 0;
-    }
+    
     
     @media (max-width: 375px) {
         /* justify-content: center; */
@@ -103,8 +96,8 @@ export const H1 = styled.h1`
 
 
     @media (max-width: 425px) {
-        font-size: 35px;
-        margin-right: 100px;
+        font-size: 40px;
+        margin-right: 56px;
     }
 
     @media (max-width: 320px) {
