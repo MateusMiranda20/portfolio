@@ -23,6 +23,15 @@ export const Container = styled.section`
       }
     }
 
+    @media (max-width: 320px) {
+      h1{
+        text-align: center;
+        margin-left: 25rem;
+        margin-top: 12rem;
+        font-size: 40px;
+      }
+    }
+
 `
 
 export const Section = styled.div`
@@ -34,7 +43,19 @@ export const Section = styled.div`
   @media (max-width: 425px){
     display: flex;
     flex-direction: column;
-    margin-left: 28rem;
+    margin-left: 31rem;
+  }
+
+  @media (max-width: 375px){
+    display: flex;
+    flex-direction: column;
+    margin-left: 30rem;
+  }
+
+  @media (max-width: 320px) {
+    display: flex;
+    flex-direction: column;
+    margin-left: 38rem;
   }
 
   .card{
@@ -61,6 +82,11 @@ export const Section = styled.div`
     @media (max-width: 425px){
       width: 40rem;
       height: 30rem;
+    }
+
+    @media ( max-width: 320px){
+      width: 40rem;
+      height: 37rem;
     }
   }
 
@@ -174,5 +200,47 @@ export const Section = styled.div`
         color: white;
       }
     }
+
+    @media (max-width: 320px){
+      img{
+          width: 550px;
+          border-radius: 10px 10px 0 0;
+          margin: 15px 47px;
+        }
+
+      p{
+        margin-top: 10px;
+        text-align: left;
+        font-size: 40px;
+        margin-left: 50px;
+      }
+
+      span{
+        text-align: left;
+        font-size: 40px;
+        cursor: pointer;
+        margin-left: 50px;
+        margin-bottom: 10px;
+      }
+
+      button{
+        width: 19rem;
+        height: 5rem;
+        font-size: 45px;
+        padding: 13px;
+        margin: auto;
+        border-radius: 10px;
+        border: none;
+        background-color: #000;
+        cursor: pointer;
+
+        a {
+          text-decoration: none;
+          font-weight: 700;
+          color: white;
+        }
+      }
+    }
+    
   }
 `

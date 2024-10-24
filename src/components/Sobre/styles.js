@@ -19,6 +19,15 @@ export const Container = styled.section`
         margin-left: 8rem;
         width: 38rem;
     }
+
+    @media (max-width: 320px){
+        margin-left: 8rem;
+        width: 42rem;
+
+        h1{
+            font-size: 40px;
+        }
+    }
 `
 
 export const Section = styled.div`
@@ -30,6 +39,11 @@ export const Section = styled.div`
     @media (max-width: 425px){
         width: 100% ;
         height: 62rem;
+    }
+
+    @media (max-width: 320px){
+        width: 100% ;
+        height: 70rem;
     }
     
     .icons{
@@ -174,6 +188,15 @@ export const Text = styled.div`
             padding: 1px 16rem;
             font-size: 1.9rem;
             line-height: 2.2rem;
+            text-align: center;
+        }
+    }
+
+    @media (max-width: 320px){
+        p{
+            padding: 1px 16rem;
+            font-size: 35px;
+            line-height: 2.3rem;
             text-align: center;
         }
     }

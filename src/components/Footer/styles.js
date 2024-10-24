@@ -87,7 +87,47 @@ export const Section = styled.div`
   @media (max-width: 425px) {
       gap: 40px;
       margin-left: 14rem;
-      width: 58rem;
+      width: 64rem;
+
+      p{
+        font-size: 25px;
+      }
+
+      span{
+        margin-left: 20px;
+        font-size: 25px;
+      }
+
+      .footer_button{
+        font-size: 0px;
+        
+      }
+  }
+
+  @media (max-width: 375px) {
+      gap: 40px;
+      margin-left: 14rem;
+      width: 63.5rem;
+
+      p{
+        font-size: 25px;
+      }
+
+      span{
+        margin-left: 20px;
+        font-size: 25px;
+      }
+
+      .footer_button{
+        font-size: 0px;
+        
+      }
+  }
+
+  @media (max-width: 320px) {
+      gap: 40px;
+      margin-left: 14rem;
+      width: 64rem;
 
       p{
         font-size: 25px;
@@ -103,6 +143,6 @@ export const Section = styled.div`
         
       }
     }
-
+  
 
 `

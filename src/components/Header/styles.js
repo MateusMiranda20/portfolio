@@ -81,6 +81,7 @@ export const Headerr = styled.header`
         display: flex;
         margin-right: 0px;
         top: 0;
+        height: 5rem;
     }
 `;
 
@@ -101,7 +102,7 @@ export const H1 = styled.h1`
     }
 
     @media (max-width: 320px) {
-        font-size: 25px;
+        font-size: 50px;
     }
 `;
 

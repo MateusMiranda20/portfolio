@@ -64,51 +64,113 @@ export const Hero = styled.section`
             padding: 90px 0;
             margin-left: 11rem;
 
-                h2{
-                    font-size: 39px;
-                    font-weight: 500;
-                    margin: 10px 0;
-                    color: #000 ;
-                }
-
-                h3 {
-                    font-size: 39px;
-                    font-weight: 500;
-                    margin: 10px 0;
-                    color: #000 ;
-                }
-            
-                p {
-                    font-size: 25px;
-                    font-weight: 500;
-                    line-height: 1.6;
-                    margin: auto;
-                }
-
-                button, a{
-                    font-size: 29px;
-                    max-width: 57%;
-                    position: relative;
-                    left: 12px;
-                    top: 10px;
-                    padding: 15px;
-                }
+            h2{
+                font-size: 39px;
+                font-weight: 500;
+                margin: 10px 0;
+                color: #000 ;
+            }
+            h3 {
+                font-size: 39px;
+                font-weight: 500;
+                margin: 10px 0;
+                color: #000 ;
+            }
+        
+            p {
+                font-size: 25px;
+                font-weight: 500;
+                line-height: 1.6;
+                margin: auto;
+            }
+            button, a{
+                font-size: 29px;
+                max-width: 57%;
+                position: relative;
+                left: 12px;
+                top: 10px;
+                padding: 15px;
+            }
         }
     }
 
     @media (max-width: 375px) {
         .container {
-            margin-top: 0;
-            padding: 20px;
+            margin-top: 80px;
+            margin-left: 18rem;
+            padding: 40px 0;
             width: 100%;
-        }
+        
+            
+            h2{
+                font-size: 34px;
+                font-weight: 500;
+                margin: 10px 0;
+                color: #000 ;
+            }
+
+            h3 {
+                font-size: 39px;
+                font-weight: 500;
+                margin: 10px 0;
+                color: #000 ;
+            }
+        
+            p {
+                font-size: 35px;
+                    font-weight: 500;
+                    line-height: 1.6;
+                    margin: auto;
+            }
+
+            button, a{
+                font-size: 29px;
+                max-width: 57%;
+                position: relative;
+                left: -2px;
+                top: 10px;
+                padding: 15px;
+            }
+        } 
     }
 
     @media (max-width: 320px) {
-        gap: 20px;
+      
         .container {
-            padding: 10px;
-            gap: 15px;
+            
+            margin-left: 21rem;
+
+            h2{
+                font-size: 55px;
+                font-weight: 700;
+                margin: 10px 0;
+                color: #000;
+                margin-bottom: 25px;
+            }
+
+            h3 {
+                font-size: 55px;
+                font-weight: 600;
+                margin: 10px 0;
+                color: #000;
+                margin-bottom: 20px;
+            }
+        
+            p {
+                font-size: 42px;
+                font-weight: 500;
+                line-height: 1.6;
+                margin: auto;
+            }
+
+            button, a{
+                font-size: 40px;
+                max-width: 57%;
+                position: relative;
+                left: 12px;
+                top: 10px;
+                padding: 17px;
+            }
         }
     }
 `;
@@ -220,22 +282,21 @@ export const Text = styled.div`
     }
 
     .linkedin {
-                background-color: #0000FF;
-                border: none;
-                color: #fff;
-                padding: 8px 10px;
-                text-align: center;
-                text-decoration: none;
-                display: inline-block;
-                font-size: 16px;
-                margin: 15px 2px;
-                cursor: pointer;
-                border-radius: 4px;
-                font-weight: 700;
-
-                @media ( max-width: 768px){
-                font-size: 13px;
-                }
+        background-color: #0000FF;
+        border: none;
+        color: #fff;
+        padding: 8px 10px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 15px 2px;
+        cursor: pointer;
+        border-radius: 4px;
+        font-weight: 700;
+        @media ( max-width: 768px){
+        font-size: 13px;
+        }
 
     }
        
