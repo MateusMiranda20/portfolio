@@ -1,148 +1,85 @@
 import styled from "styled-components";
 
 export const Container = styled.section`
-    padding: 400px 0 0 0;
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    font-family: "Montserrat", sans-serif;
-
-    @media (max-width: 425px) {
-      width: 38rem;
-    }
-`
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  font-family: "Montserrat", sans-serif;
+`;
 
 export const Section = styled.div`
   display: flex;
   align-items: center;
-  flex-direction: row;
-  background-color: #F9A602;
+  justify-content: center;
+  flex-wrap: wrap; /* Permite quebra de linha em telas menores */
+  background-color: #f9a602;
   width: 100%;
-  height: 100px;
+  padding: 20px;
+  margin-top: 20%;
 
-
-  .card{
+  .card {
     display: flex;
-    flex-direction: row;
+    flex-wrap: wrap; /* Itens quebram em telas menores */
+    gap: 20px;
+    justify-content: space-around; /* Centraliza itens em telas pequenas */
     text-align: center;
-    margin: auto;
-    gap: 30px;
   }
 
-  .footer_button{
+  .footer_button {
     text-decoration: none;
-    text-align: center;
-    font-size: 20px;
+    font-size: 16px;
     color: white;
     display: flex;
+    align-items: center;
     gap: 5px;
     background-color: black;
-    padding: 10px;
-    border-radius: 8px; 
+    padding: 10px 15px;
+    border-radius: 8px;
+    transition: transform 0.2s;
+
+    &:hover {
+      transform: scale(1.05); /* Efeito de hover */
+    }
+
+    &:active {
+      transform: scale(0.95); /* Efeito ao clicar */
+    }
   }
 
-  a:active{
-    transform: scale(0.99);   /* Simula um "pressionar" no clique */
-  }
-
-  p{
+  span {
+    margin-top: 10px;
+    font-size: 14px;
     text-align: center;
-
+    color: white;
   }
 
-  span{
-    display: flex;
-    align-items: center;
-    margin-left: 18rem;
-  }
-
-  @media (max-width: 768px){
-
-    height: 90px;
-
-    .footer_button{
-      text-decoration: none;
-      text-align: center;
-      font-size: 13px;
-      color: white;
-      display: flex;
-      background-color: black;
-      border-radius: 8px; 
+  /* Responsividade */
+  @media (max-width: 768px) {
+    .footer_button {
+      font-size: 14px;
+      padding: 8px 12px;
     }
 
-    p{
-      text-align: center;
+    span {
+      font-size: 12px;
     }
-
-    span{
-      display: flex;
-      align-items: center;
-      margin-left: 8rem;
-    }
-  
   }
 
   @media (max-width: 425px) {
-      gap: 40px;
-      margin-left: 14rem;
-      width: 64rem;
-
-      p{
-        font-size: 25px;
-      }
-
-      span{
-        margin-left: 20px;
-        font-size: 25px;
-      }
-
-      .footer_button{
-        font-size: 0px;
-        
-      }
-  }
-
-  @media (max-width: 375px) {
-      gap: 40px;
-      margin-left: 14rem;
-      width: 63.5rem;
-
-      p{
-        font-size: 25px;
-      }
-
-      span{
-        margin-left: 20px;
-        font-size: 25px;
-      }
-
-      .footer_button{
-        font-size: 0px;
-        
-      }
-  }
-
-  @media (max-width: 320px) {
-      gap: 40px;
-      margin-left: 14rem;
-      width: 64rem;
-
-      p{
-        font-size: 25px;
-      }
-
-      span{
-        margin-left: 20px;
-        font-size: 25px;
-      }
-
-      .footer_button{
-        font-size: 0px;
-        
-      }
+    .card {
+      flex-direction: row; /* Empilha itens verticalmente */
+      gap: 10px;
     }
-  
 
-`
+    .footer_button {
+      font-size: 12px;
+      padding: 6px 10px;
+    }
+
+    span {
+      font-size: 10px;
+    }
+  }
+`;

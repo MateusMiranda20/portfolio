@@ -1,4 +1,4 @@
-import { Container, Section, Img, Text } from "./styles"
+import { Container, Section, Text } from "./styles"
 import portfolio from "../../assets/Foto_portfolio.png"
 import { FaNode } from "react-icons/fa6";
 import { IoLogoJavascript } from "react-icons/io";
@@ -21,7 +21,7 @@ function Projetos() {
               </div>
         <div className="main">
           <div className='img-logo'>
-            <Img src={portfolio} alt="Imagem Mateus " />
+            <img src={portfolio} alt="Imagem Mateus " />
           </div>
 
           <Text>
