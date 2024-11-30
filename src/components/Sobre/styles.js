@@ -80,6 +80,36 @@ export const Section = styled.div`
       margin-left: 40%;
     }
   }
+
+  @media (max-width: 425px) {
+    height: 540px;
+
+    .img-logo{
+      flex: 1 1 200px; /* Flexibilidade para ajustar a largura */
+      display: flex;
+      justify-content: center;
+    }
+
+    .main{
+      display: flex;
+      flex-direction: column;
+    }
+
+    .icons{
+      width: 15rem;
+      margin: auto;
+      position: relative;
+      top: 10px;
+    }
+  }
+
+  @media (max-width: 375px) {
+    height: 570px;
+  }
+
+  @media (max-width: 425px) {
+    height: 620px;
+  }
 `;
 
 // Texto
@@ -100,7 +130,7 @@ export const Text = styled.div`
 
     span {
       display: flex;
-      justify-content: flex-start;
+      margin: auto;
 
       .download-button {
         background-color: #000;
@@ -117,6 +147,12 @@ export const Text = styled.div`
           background-color: #fff;
           color: #000;
         }
+
+        @media (max-width: 425px) {
+            margin-top: 9px;
+            margin-left: 10%;
+        }
+
       }
     }
   }
@@ -125,6 +161,16 @@ export const Text = styled.div`
     .text {
       p{
         font-size: 17px;
+      }
+    }
+  }
+
+  @media (max-width: 425px) {
+    .text {
+      p{
+        padding: 0 8px;
+        font-size: 13px;
+        text-align: left;
       }
     }
   }
