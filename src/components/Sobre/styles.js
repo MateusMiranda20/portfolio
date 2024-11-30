@@ -110,6 +110,47 @@ export const Section = styled.div`
   @media (max-width: 425px) {
     height: 620px;
   }
+
+  @media (min-width: 425px) and (max-width: 748px) {
+  /* Ajustes para o Container */
+  h1 {
+    font-size: 2.2rem;
+    margin-bottom: 30px;
+  }
+
+  /* Ajustes para a Section */
+  .icons {
+    width: 12rem;
+    margin-left: 35%;
+  }
+
+  .main {
+    gap: 20px; /* Reduz o espaço entre os itens */
+  }
+
+  .img-logo {
+    flex: 1 1 250px; /* Ajuste da largura da imagem */
+    img {
+      max-width: 250px;
+    }
+  }
+
+  /* Ajustes para o Texto */
+  .text {
+    font-size: 0.9rem;
+    p {
+      font-size: 0.9rem;
+      padding: 0 10px; /* Mais espaçamento lateral */
+    }
+
+    .download-button {
+      margin-top: 5px;
+      padding: 4px 10px;
+      font-size: 0.9rem;
+    }
+  }
+}
+
 `;
 
 // Texto
@@ -160,7 +201,7 @@ export const Text = styled.div`
   @media (max-width: 768px) {
     .text {
       p{
-        font-size: 17px;
+        font-size: 15px;
       }
     }
   }
