@@ -35,7 +35,7 @@ export const Section = styled.div`
     display: flex;
     justify-content: center;
     gap: 15px;
-    margin-top: 20px;
+    margin-top: 10px;
     margin-left: 38%;
 
     svg {
@@ -48,13 +48,13 @@ export const Section = styled.div`
         transform: scale(1.2); /* Efeito ao passar o mouse */
       }
     }
+
   }
 
   .main {
     display: flex;
     align-items: center;
     justify-content: center;
-    flex-wrap: wrap; /* Permite reorganizar elementos em telas menores */
     gap: 30px;
     width: 100%;
     margin-bottom: auto;
@@ -70,6 +70,16 @@ export const Section = styled.div`
       max-width: 300px;
     }
   }
+
+  @media (max-width: 768px) {
+    margin: 0;
+    height: 400px;
+
+    .icons{
+      width: 11rem;
+      margin-left: 40%;
+    }
+  }
 `;
 
 // Texto
@@ -81,10 +91,10 @@ export const Text = styled.div`
     font-size: 1rem;
     line-height: 1.6;
     color: #333;
+    margin-top: -20px;
 
     p {
       font-size: 19px;
-      margin-bottom: 20px;
       color: #000;
     }
 
@@ -101,20 +111,20 @@ export const Text = styled.div`
         cursor: pointer;
         font-size: 1rem;
         transition: background-color 0.3s ease;
+        margin-top: 10px;
 
         &:hover {
-          background-color: #cc8500;
+          background-color: #fff;
+          color: #000;
         }
       }
     }
   }
 
   @media (max-width: 768px) {
-    text-align: center;
-
     .text {
-      span {
-        justify-content: center;
+      p{
+        font-size: 17px;
       }
     }
   }

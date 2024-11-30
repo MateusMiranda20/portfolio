@@ -23,6 +23,17 @@ export const Hero = styled.section`
       gap: 3rem;
     }
   }
+
+  @media (max-width: 375px) {
+    padding: 4rem 13rem;
+    text-align: center;
+  }
+
+  @media (max-width: 320px) {
+    padding: 4rem 12rem;
+    text-align: center;
+  }
+  
 `;
 
 export const LeftSection = styled.div`

@@ -16,7 +16,7 @@ export const Section = styled.div`
   flex-wrap: wrap; /* Permite quebra de linha em telas menores */
   background-color: #f9a602;
   width: 100%;
-  padding: 20px;
+  padding: 25px;
   margin-top: 20%;
 
   .card {
@@ -35,7 +35,7 @@ export const Section = styled.div`
     align-items: center;
     gap: 5px;
     background-color: black;
-    padding: 10px 15px;
+    padding: 15px 20px;
     border-radius: 8px;
     transition: transform 0.2s;
 

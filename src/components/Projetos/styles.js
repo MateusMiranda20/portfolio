@@ -51,13 +51,13 @@ export const Section = styled.div`
     p {
       font-size: 1.5rem;
       font-weight: bold;
-      color: #333;
+      color: #000;
       margin: 10px 0;
     }
 
     span {
       font-size: 1rem;
-      color: #666;
+      color: #000;
       margin-bottom: 20px;
     }
 
@@ -77,8 +77,8 @@ export const Section = styled.div`
         font-weight: bold;
       }
 
-      &:hover {
-        background-color: #cc8500;
+      &:hover{
+        transform: scale(1.05); /* Efeito de hover */
       }
     }
   }
