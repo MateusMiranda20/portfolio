@@ -31,6 +31,8 @@ export const Section = styled.div`
   border-radius: 10px;
   height: 380px;
 
+  
+
   .icons {
     display: flex;
     justify-content: center;
@@ -82,7 +84,7 @@ export const Section = styled.div`
   }
 
   @media (max-width: 425px) {
-    height: 540px;
+    height: 36.5rem;
 
     .img-logo{
       flex: 1 1 200px; /* Flexibilidade para ajustar a largura */
@@ -103,16 +105,9 @@ export const Section = styled.div`
     }
   }
 
-  @media (max-width: 375px) {
-    height: 570px;
-  }
-
-  @media (max-width: 425px) {
-    height: 620px;
-  }
-
   @media (min-width: 425px) and (max-width: 748px) {
-  /* Ajustes para o Container */
+  
+    /* Ajustes para o Container */
   h1 {
     font-size: 2.2rem;
     margin-bottom: 30px;
@@ -149,6 +144,11 @@ export const Section = styled.div`
       font-size: 0.9rem;
     }
   }
+}
+
+@media (max-width: 320px) {
+  height: 38rem;
+  
 }
 
 `;

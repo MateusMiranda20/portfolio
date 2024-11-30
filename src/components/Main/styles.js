@@ -30,7 +30,7 @@ export const Hero = styled.section`
   }
 
   @media (max-width: 320px) {
-    padding: 4rem 12rem;
+    padding: 3rem 10rem;
     text-align: center;
   }
   
