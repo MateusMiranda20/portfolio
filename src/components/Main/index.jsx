@@ -28,7 +28,7 @@ function Main() {
                         Sou especialista na construção de aplicativos web usando tecnologias como React.js e node.js
                     </p>
                     <span>
-                        <a href="/src/docs/Desenvolvedor front-end Mateus.pdf" download>
+                        <a href="https://docs.google.com/document/d/1f1nWMW6_xdGtYiCIzUAc-ZA8wbC-i513DCd3K2hqk8U/edit?tab=t.0" download>
                             <button className="download-button">Currículo</button>
                         </a>
                         <a href="https://www.linkedin.com/in/mateus-miranda-inacio/" target="_blank" alt="Minha Url do linkedin">
