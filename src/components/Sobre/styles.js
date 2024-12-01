@@ -84,7 +84,7 @@ export const Section = styled.div`
   }
 
   @media (max-width: 425px) {
-    height: 36.5rem;
+    height: 36rem;
 
     .img-logo{
       flex: 1 1 200px; /* Flexibilidade para ajustar a largura */
