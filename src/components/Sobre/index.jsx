@@ -27,10 +27,10 @@ function Projetos() {
           <Text>
             <div className="text">
                 <p>
-                  Olá, sou Mateus Miranda, nascido em 2001, sou um desenvolvedor front-end  dedicado. Ao longo da minha jornada, trabalhei em projetos de diferentes setores, como alimentação e prestação de serviços. Minha missão é criar interfaces visuais impactantes e funcionais, sempre com o compromisso de entregar soluções inovadoras. Estou constantemente buscando aprimorar minhas habilidades para garantir resultados excepcionais em cada projeto que participo.
+                Ola, meu nome é Mateus Miranda, sou desenvolvedor front-end nascido em 2001. Tenho atuado em projetos de áreas como imóveis e serviços, sempre focado em criar interfaces funcionais e atraentes. Meu objetivo é oferecer soluções criativas e práticas, tornando a experiência do usuário mais intuitiva. Estou em constante aprendizado para garantir entregas de qualidade e superar expectativas em cada trabalho.
                 </p>
               <span>
-                <a href="https://docs.google.com/document/d/1f1nWMW6_xdGtYiCIzUAc-ZA8wbC-i513DCd3K2hqk8U/edit?tab=t.0" download>
+                <a href="https://docs.google.com/document/d/1f1nWMW6_xdGtYiCIzUAc-ZA8wbC-i513DCd3K2hqk8U/edit?tab=t.0" target="_blank" alt="Meu Curriculo">
                   <button className="download-button">Currículo</button>
                 </a>
               </span>

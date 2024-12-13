@@ -182,7 +182,7 @@ export const Text = styled.div`
         cursor: pointer;
         font-size: 1rem;
         transition: background-color 0.3s ease;
-        margin-top: 10px;
+        margin-top: 20px;
 
         &:hover {
           background-color: #fff;
