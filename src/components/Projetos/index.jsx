@@ -1,12 +1,12 @@
 import { Container, Section } from "./styles"
-import barbearia from '../../assets/barbearia.png'
+import piscina from "../../assets/piscina.png"
 import jacarnda from "../../assets/jacaranda.png"
 import fazeres from "../../assets/fazeres.png"
 
 function Projetos() {
 
   return (
-    <Container id='projetos' data-aos="fade-up">
+    <Container id='projetos'>
       <h1>Últimos projetos</h1>
       <Section>
         <div className="card">
@@ -26,9 +26,9 @@ function Projetos() {
           </button>
         </div>
         <div className="card">
-          <img src={barbearia} alt="Barbearia " loading="lazy"/>
-          <p>Barbearia</p>
-          <span>Um estilo diferente para o seu corte</span>
+          <img src={piscina} alt="Barbearia " loading="lazy"/>
+          <p>Piscina</p>
+          <span>Sua piscina dos sonhos começa aqui</span>
           <button>
             <a href="https://iridescent-blini-672674.netlify.app/" target="_blank">Veja mais</a>
           </button>
