@@ -26,9 +26,9 @@ function Projetos() {
           </button>
         </div>
         <div className="card">
-          <img src={piscina} alt="Barbearia " loading="lazy"/>
+          <img src={piscina} alt="Piscina " loading="lazy"/>
           <p>Piscina</p>
-          <span>Sua piscina dos sonhos começa aqui</span>
+          <span>Sua piscina dos sonhos começa aqui!</span>
           <button>
             <a href="https://iridescent-blini-672674.netlify.app/" target="_blank">Veja mais</a>
           </button>
