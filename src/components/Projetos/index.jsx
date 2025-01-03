@@ -30,7 +30,7 @@ function Projetos() {
           <p>Piscina</p>
           <span>Sua piscina dos sonhos começa aqui!</span>
           <button>
-            <a href="https://iridescent-blini-672674.netlify.app/" target="_blank">Veja mais</a>
+            <a href="https://piscinasjj.netlify.app/" target="_blank">Veja mais</a>
           </button>
         </div>
       </Section>
