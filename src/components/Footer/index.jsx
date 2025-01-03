@@ -26,7 +26,7 @@ function Footer() {
             <FaWhatsapp />
             <p>Whatsapp</p>
           </a>
-          <span>Copyright © 2024 MM</span>
+          <span>Copyright © 2025 MM</span>
         </div>
       </Section>
     </Container>
