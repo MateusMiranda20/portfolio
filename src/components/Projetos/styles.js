@@ -4,6 +4,7 @@ import styled from "styled-components";
 export const Container = styled.section`
   padding: 50px 20px;
   text-align: center;
+  background: #f5f5f5;
 
   h1 {
     font-size: 2.5rem;
@@ -21,10 +22,11 @@ export const Container = styled.section`
 // Área dos cards
 export const Section = styled.div`
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   gap: 20px;
-  flex-wrap: wrap; /* Permite os cards se ajustarem em telas menores */
+  //flex-wrap: wrap; /* Permite os cards se ajustarem em telas menores */
   max-width: 1200px;
   margin: 0 auto;
 
@@ -33,16 +35,16 @@ export const Section = styled.div`
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     overflow: hidden;
-    width: 30%; /* Largura padrão para três cards lado a lado */
-    min-width: 280px; /* Largura mínima para garantir boa visualização */
+    width: 100%; /* Largura padrão para três cards lado a lado */
+    min-width: 600px; /* Largura mínima para garantir boa visualização */
     text-align: center;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
     padding: 20px;
 
     img {
-      width: 100%;
+      width: 50%;
       height: auto;
       border-radius: 10px;
       margin-bottom: 15px;

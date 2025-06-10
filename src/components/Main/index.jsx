@@ -1,4 +1,4 @@
-import { Hero, Img, Text, LeftSection } from "./styles"
+import { Hero, Img, Text, Content} from "./styles"
 import Logo from "../../assets/Mateus.jpg"
 import { useState, useEffect } from 'react';
 import AOS from 'aos';
@@ -19,16 +19,18 @@ function Main() {
         <Hero id="#"
             data-aos={isAnimated ? "fade-down" : ""}
         >
-            <LeftSection />
-            <div className="container" data-aos="fade-up">
+            
+            <Content data-aos="fade-up">
                 <Text>
-                    <h2>Olá eu sou o <span>Mateus Miranda!</span></h2>
-                    <h3>Desenvolvedor Front-End</h3>
                     <p>
-                        Sou especialista na construção de aplicativos web usando tecnologias como React.js e node.js
+                        Sou desenvolvedor de software movido pela curiosidade e paixão por tecnologia. Tenho experiência com
+                        Javascript, React.js, Typescript, Node, SQL e Docker, sempre focado em transformar ideias em soluções
+                        simples e eficientes. Gosto de unir código limpo com uma boa experiência do usuário. Valorizo o trabalho
+                        em equipe, metodologias ágeis e estou sempre buscando melhorar como profissional e pessoa. Acredito
+                        que tecnologia é tão sobre pessoas quanto sobre código.
                     </p>
                     <span>
-                        <a href="https://docs.google.com/document/d/1f1nWMW6_xdGtYiCIzUAc-ZA8wbC-i513DCd3K2hqk8U/edit?tab=t.0" target="_blank" alt="Meu Curriculo">
+                        <a href="https://docs.google.com/document/d/1T1ldetPigUVLmqAS95wcV9nlbO9jWh_fZfoYKF3jHME/edit?tab=t.0" target="_blank" alt="Meu Curriculo">
                             <button className="download-button">Currículo</button>
                         </a>
                         <a href="https://www.linkedin.com/in/mateus-miranda-inacio/" target="_blank" alt="Minha Url do linkedin">
@@ -36,12 +38,12 @@ function Main() {
                         </a>
                     </span>
                 </Text>
-                
+
 
                 <div className='img-logo'>
                     <Img src={Logo} alt="Imagem Mateus " />
                 </div>
-            </div>
+            </Content>
         </Hero>
     )
 }

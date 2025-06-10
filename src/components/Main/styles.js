@@ -7,72 +7,52 @@ export const Hero = styled.section`
   padding: 4rem 5rem;
   background: #f5f5f5;
   min-height: 100vh;
-
-  .container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    gap: 2rem;
-    max-width: 1200px;
-    width: 100%;
-  }
-
-  @media (max-width: 768px) {
-    .container {
-      flex-direction: column;
-      gap: 3rem;
-    }
-  }
-
-  @media (max-width: 375px) {
-    padding: 4rem 13rem;
-    text-align: center;
-  }
-
-  @media (max-width: 320px) {
-    padding: 3rem 10rem;
-    text-align: center;
-  }
   
 `;
 
-export const LeftSection = styled.div`
-  flex: 1;
+export const Content = styled.div`
+  display: flex;
+  align-items: center;
+  gap: 3.5rem;
+  max-width: 1500px;
+  width: 100%;
+
+  @media (max-width: 790px) {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    font-size: 1rem;
+  }
+
+  @media (max-width: 375px) {
+    padding: 1rem;
+  }
+  
+  @media (max-width: 320px) {
+    padding: 10px;
+  }
 `;
+
 
 export const Text = styled.div`
   flex: 1;
-  max-width: 600px;
-
-  h2 {
-    font-size: 2.5rem;
-    color: #333;
-    margin-bottom: 1rem;
-
-    span {
-      color: #f9a602;
-    }
-  }
-
-  h3 {
-    font-size: 1.8rem;
-    color: #666;
-    margin-bottom: 1rem;
-  }
+  max-width: 1000px;
+  padding: 2rem;
 
   p {
-    font-size: 1rem;
+    font-size: 1.5rem;
     color: #777;
     line-height: 1.5;
-    margin-bottom: 1.5rem;
   }
 
   span {
     display: flex;
-    gap: 1rem;
-
+    gap: 2rem;
+    margin-top: 1rem;
+    
     a {
       text-decoration: none;
+      color: #000;
     }
 
     .download-button,
@@ -82,8 +62,7 @@ export const Text = styled.div`
       border-radius: 5px;
       font-size: 1rem;
       cursor: pointer;
-      color: #fff;
-      background-color: #333;
+      background-color: #777;
       transition: background 0.3s ease;
 
       &:hover {
@@ -93,16 +72,8 @@ export const Text = styled.div`
   }
 
   @media (max-width: 768px) {
-    h2 {
-      font-size: 2rem;
-    }
-
-    h3 {
-      font-size: 1.5rem;
-    }
-
     p {
-      font-size: 0.9rem;
+      font-size: 1rem;
     }
 
     .download-button,
@@ -111,14 +82,22 @@ export const Text = styled.div`
       padding: 0.6rem 1rem;
     }
   }
+
+@media (max-width: 375px) {
+    p{
+      font-size: 1rem;
+    }
+  }
+  
 `;
 
 export const Img = styled.img`
-  width: 300px;
-  height: 300px;
+  width: 320px;
+  height: 320px;
   border-radius: 50%;
   object-fit: cover;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  margin-bottom: 2.5rem;
 
   @media (max-width: 768px) {
     width: 250px;
