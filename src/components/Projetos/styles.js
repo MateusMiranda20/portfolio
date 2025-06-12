@@ -23,7 +23,7 @@ export const Container = styled.section`
 export const Section = styled.div`
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
   gap: 20px;
   //flex-wrap: wrap; /* Permite os cards se ajustarem em telas menores */
@@ -31,23 +31,38 @@ export const Section = styled.div`
   margin: 0 auto;
 
   .card {
-    background-color: #f9a602;
     border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
     overflow: hidden;
-    width: 100%; /* Largura padrão para três cards lado a lado */
-    min-width: 600px; /* Largura mínima para garantir boa visualização */
+    width: 95%; /* Largura padrão para três cards lado a lado */
+    min-width: 500px; /* Largura mínima para garantir boa visualização */
     text-align: center;
     display: flex;
-    flex-direction: row;
     align-items: center;
-    padding: 20px;
+    padding: 10px;
+    justify-content: space-between;
+
+    .text {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      padding: 20px;
+      width: 50%; /* Largura do texto */
+      color: #000;
+
+      @media (max-width: 768px) {
+        width: 100%; /* Texto ocupa toda a largura em telas menores */
+        text-align: center; /* Centraliza o texto */
+      } 
+    }
 
     img {
+      max-width: 800px;
       width: 50%;
       height: auto;
       border-radius: 10px;
-      margin-bottom: 15px;
+      margin:  10px 10px;
     }
 
     p {
@@ -61,9 +76,12 @@ export const Section = styled.div`
       font-size: 1rem;
       color: #000;
       margin-bottom: 20px;
+      text-align: left;
     }
 
     button {
+      position: relative;
+      right: 11.2rem;
       margin-top: auto;
       background-color: #000;
       border: none;
@@ -97,4 +115,22 @@ export const Section = styled.div`
       width: 100%; /* Um card por linha em telas menores */
     }
   }
+`;
+
+
+export const Skills = styled.span`
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+`;
+
+export const SkillTag = styled.span`
+  background-color:rgb(209, 209, 209);
+  border-radius: 5px;
+  padding: 5px 5px;
+  font-size: 0.9rem;
+  color: #fff;
+  margin-top: 3px;
+  font-weight: 500;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
 `;
