@@ -31,6 +31,7 @@ export const Section = styled.div`
   margin: 0 auto;
 
   .card {
+    background-color: #f9a602;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
     overflow: hidden;
@@ -60,9 +61,9 @@ export const Section = styled.div`
     img {
       max-width: 800px;
       width: 50%;
-      height: auto;
+      height: 39vh;
       border-radius: 10px;
-      margin:  10px 10px;
+      margin:0 7px;
     }
 
     p {
@@ -77,6 +78,7 @@ export const Section = styled.div`
       color: #000;
       margin-bottom: 20px;
       text-align: left;
+      line-height: 1.4;
     }
 
     button {
@@ -126,8 +128,8 @@ export const Skills = styled.span`
 
 export const SkillTag = styled.span`
   background-color:rgb(209, 209, 209);
-  border-radius: 5px;
-  padding: 5px 5px;
+  border-radius: 16px;
+  padding: 7px 5px;
   font-size: 0.9rem;
   color: #fff;
   margin-top: 3px;

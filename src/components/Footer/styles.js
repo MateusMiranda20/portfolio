@@ -8,6 +8,13 @@ export const Container = styled.section`
   justify-content: center;
   flex-direction: column;
   font-family: "Montserrat", sans-serif;
+
+  span {
+    margin: 10px 0;
+    font-size: 15px;
+    text-align: center;
+    color: #000;
+  }
 `;
 
 export const Section = styled.div`
@@ -15,10 +22,9 @@ export const Section = styled.div`
   align-items: center;
   justify-content: center;
   flex-wrap: wrap; /* Permite quebra de linha em telas menores */
-  background-color: #f9a602;
   width: 100%;
   padding: 25px;
-  margin-top: 20%;
+  margin-top: 7%;
 
   .card {
     display: flex;
@@ -30,14 +36,11 @@ export const Section = styled.div`
 
   .footer_button {
     text-decoration: none;
-    font-size: 16px;
-    color: white;
+    font-size: 40px;
+    color: #000;
     display: flex;
     align-items: center;
     gap: 5px;
-    background-color: black;
-    padding: 15px 20px;
-    border-radius: 8px;
     transition: transform 0.2s;
 
     &:hover {
@@ -47,13 +50,6 @@ export const Section = styled.div`
     &:active {
       transform: scale(0.95); /* Efeito ao clicar */
     }
-  }
-
-  span {
-    margin-top: 10px;
-    font-size: 14px;
-    text-align: center;
-    color: white;
   }
 
   /* Responsividade */

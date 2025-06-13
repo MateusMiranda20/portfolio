@@ -2,10 +2,7 @@ import { Container, Section } from "./styles"
 import { FaWhatsapp } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
-
-    
-
-
+import { FaArrowAltCircleUp } from "react-icons/fa";
 
 function Footer() {
   return (
@@ -13,22 +10,23 @@ function Footer() {
       <Section>
         <div className="card">
           <a href="https://www.linkedin.com/in/mateus-miranda-inacio/" target="_blank" className="footer_button">
-            <FaLinkedin /> 
-            <p>Linkedin</p>
+            <FaLinkedin />
           </a>
 
-          <a href="https://github.com/MateusMiranda20" target="_blank" className="footer_button"> 
+          <a href="https://github.com/MateusMiranda20" target="_blank" className="footer_button">
             <FaGithub />
-            <p>Github</p>
           </a>
-         
+
           <a href="https://api.whatsapp.com/send/?phone=5512996676967" target="_blank" className="footer_button">
             <FaWhatsapp />
-            <p>Whatsapp</p>
           </a>
-          <span>Copyright © 2025 MM</span>
+
+          <a className="footer_button" href="#top">
+            <FaArrowAltCircleUp />
+          </a>
         </div>
       </Section>
+      <span>Copyright © 2025 Mateus Miranda Inacio</span>
     </Container>
   )
 }
