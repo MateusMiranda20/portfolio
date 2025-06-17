@@ -28,15 +28,14 @@ export const Section = styled.div`
   gap: 20px;
   //flex-wrap: wrap; /* Permite os cards se ajustarem em telas menores */
   max-width: 1200px;
-  margin: 0 auto;
+  margin: 0 auto;  
 
   .card {
-    background-color: #f9a602;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
     overflow: hidden;
     width: 95%; /* Largura padrão para três cards lado a lado */
-    min-width: 500px; /* Largura mínima para garantir boa visualização */
+    min-width: 120px; /* Largura mínima para garantir boa visualização */
     text-align: center;
     display: flex;
     align-items: center;
@@ -51,18 +50,12 @@ export const Section = styled.div`
       padding: 20px;
       width: 50%; /* Largura do texto */
       color: #000;
-
-      @media (max-width: 768px) {
-        width: 100%; /* Texto ocupa toda a largura em telas menores */
-        text-align: center; /* Centraliza o texto */
-      } 
     }
 
     img {
       max-width: 800px;
       width: 50%;
-      height: 39vh;
-      border-radius: 10px;
+      height: 55vh;
       margin:0 7px;
     }
 
@@ -105,16 +98,51 @@ export const Section = styled.div`
     }
   }
 
-  /* Responsividade */
-  @media (max-width: 1024px) {
+  /* Responsividade */ 
+
+  @media (max-width: 778px) {
     .card {
-      width: 45%; /* Dois cards lado a lado em telas médias */
+      display: flex;
+      flex-direction: column; /* Coloca os cards em coluna em telas pequenas */
+
+
+      .text{
+        width: 100%; /* Texto ocupa toda a largura em telas menores */
+        text-align: center; /* Centraliza o texto */
+      }
+
+      img{
+        width: 100%; /* Imagem ocupa toda a largura em telas menores */
+        height: auto; /* Mantém a proporção da imagem */
+        padding: 5px 18px;
+        border-radius: 10px;
+      }
+
+      button{
+        right: 15rem;
+      }
     }
   }
 
-  @media (max-width: 768px) {
+  @media (max-width: 480px) {
     .card {
-      width: 100%; /* Um card por linha em telas menores */
+      width: 100%; /* Largura total em telas muito pequenas */
+      padding: 10px; /* Ajusta o padding para telas pequenas */
+
+      button {
+        right: 0; /* Centraliza o botão em telas pequenas */
+        margin-top: 10px; /* Espaço entre o botão e o texto */
+        font-size: 10px;
+      }
+    }
+  }
+  
+  @media (max-width: 320px) {
+    .card {
+
+      button{
+        right: 0; /* Centraliza o botão em telas muito pequenas */
+      }
     }
   }
 `;

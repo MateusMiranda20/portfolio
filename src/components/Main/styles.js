@@ -40,7 +40,7 @@ export const Text = styled.div`
   padding: 2rem;
 
   p {
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     color: #777;
     line-height: 1.5;
   }
