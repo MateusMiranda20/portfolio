@@ -1,4 +1,4 @@
-import { Hero, Img, Text, Content} from "./styles"
+import { Hero, Img, Text, Content } from "./styles"
 import Logo from "../../assets/Mateus.jpg"
 import { useState, useEffect } from 'react';
 import AOS from 'aos';
@@ -19,7 +19,7 @@ function Main() {
         <Hero id="#"
             data-aos={isAnimated ? "fade-down" : ""}
         >
-            
+
             <Content data-aos="fade-up">
                 <Text>
                     <p>
@@ -30,8 +30,12 @@ function Main() {
                         que tecnologia é tão sobre pessoas quanto sobre código.
                     </p>
                     <span>
-                        <a href="https://docs.google.com/document/d/1T1ldetPigUVLmqAS95wcV9nlbO9jWh_fZfoYKF3jHME/edit?tab=t.0" target="_blank" alt="Meu Curriculo">
-                            <button className="download-button">Currículo</button>
+                        <a
+                            href="/curriculo.pdf"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
+                            <button className="download-button">Baixar Currículo</button>
                         </a>
                         <a href="https://www.linkedin.com/in/mateus-miranda-inacio/" target="_blank" alt="Minha Url do linkedin">
                             <button className="linkedin">Linkedin</button>
