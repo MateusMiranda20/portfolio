@@ -57,10 +57,10 @@ export const Text = styled.div`
 
     .download-button,
     .linkedin {
-      padding: 0.8rem 1.5rem;
+      padding: 1rem 1rem;
       border: none;
       border-radius: 5px;
-      font-size: 1rem;
+      font-size: 1rem;;
       cursor: pointer;
       background-color: #777;
       transition: background 0.3s ease;

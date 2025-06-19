@@ -79,4 +79,13 @@ export const Section = styled.div`
       font-size: 10px;
     }
   }
+
+  @media (max-width: 320px) {
+    .card {
+      a{
+        font-size: 1.8rem; /* Reduz o tamanho do ícone em telas muito pequenas */
+      }
+    }
+  }
+    
 `;
